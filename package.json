@@ -39,7 +39,7 @@
     "jshint-stylish": "^2.0.1",
     "karma": "0.10.x",
     "karma-jasmine": "~0.1.5",
-    "karma-junit-reporter": "~0.2.1",
+    "karma-junit-reporter": "^0.2.2",
     "run-sequence": "^1.1.1",
     "sys": "0.0.1",
     "xml2js": "^0.4.9",
