@@ -37,7 +37,7 @@
     "js-yaml": "^3.3.1",
     "jshint": "^2.8.0",
     "jshint-stylish": "^2.0.1",
-    "karma": "0.10.x",
+    "karma": "0.12.x",
     "karma-jasmine": "^0.3.5",
     "karma-junit-reporter": "^0.2.2",
     "run-sequence": "^1.1.1",
