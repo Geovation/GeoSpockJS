@@ -37,16 +37,16 @@
     "js-yaml": "^3.3.1",
     "jshint": "^2.8.0",
     "jshint-stylish": "^2.0.1",
-    "karma": "^0.12.37",
-    "karma-jasmine": "^0.3.5",
-    "karma-junit-reporter": "^0.2.2",
+    "karma": "0.10.x",
+    "karma-jasmine": "~0.1.5",
+    "karma-junit-reporter": "~0.2.1",
     "run-sequence": "^1.1.1",
     "sys": "0.0.1",
     "xml2js": "^0.4.9",
     "yargs": "^3.13.0"
   },
   "engines": {
-    "node": ">=0.12",
+    "node": "~0.10",
     "npm": "2.11.2"
   },
   "gitHead": "e7866696b45b08d4567850b08f5fc44314862bd3",
