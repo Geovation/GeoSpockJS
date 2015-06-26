@@ -1,8 +1,6 @@
-GeoSpock Web [ ![Codeship Status for Geovation/GeoSpockWeb](https://codeship.com/projects/3ceb1330-fe71-0132-422d-2ad98d6b18d6/status?branch=master)](https://codeship.com/projects/88099)
+GeoSpock Web [![Build Status](https://semaphoreci.com/api/v1/projects/cd83ab84-c088-4739-8f11-988eedbbef58/467989/badge.svg)](https://semaphoreci.com/sebastianovide/geospockweb)
 ============
 
-
-8b
 
 TODO !!!
 ====
