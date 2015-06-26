@@ -1,5 +1,15 @@
-javascript-sdk-boilerplate [![Build Status](https://travis-ci.org/monbro/javascript-sdk-boilerplate.svg?branch=master)](https://travis-ci.org/monbro/javascript-sdk-boilerplate)
-===========================
+GeoSpock Web [![Build Status](https://semaphoreci.com/api/v1/projects/cd83ab84-c088-4739-8f11-988eedbbef58/467989/badge.svg)](https://semaphoreci.com/sebastianovide/geospockweb)
+============
+
+
+
+TODO !!!
+====
+
+Original README
+===============
+
+
 
 A boilerplate code template for creating a generic javascript sdk. Check out the [demo](https://rawgit.com/monbro/javascript-sdk-boilerplate/master/example/example1.html).
 

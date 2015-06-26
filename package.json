@@ -1,59 +1,58 @@
 {
-  "name": "javascript-sdk-boilerplate",
+  "name": "geospockweb",
   "preferGlobal": true,
   "analyze": false,
-  "version": "0.1.0",
+  "version": "0.0.2",
   "author": {
-    "name": "Michael Klein",
-    "email": "klein@monbro.de"
+    "name": "Sebastian Ovide",
+    "email": "sebastian.ovide@geovation.uk"
   },
-  "description": "A JavaScript SDK Boilerplate",
+  "description": "GeoSpock Web Library",
   "repository": {
     "type": "git",
-    "url": "git@github.com/monbro/javascript-sdk-boilerplate.git"
+    "url": "git@github.com:Geovation/GeoSpockWeb.git"
   },
   "keywords": [
     "sdk",
-    "boilerplate",
+    "geospock",
     "api",
     "javascript"
   ],
   "dependencies": {
-    "js-yaml": "3.0.x",
-    "karma": "0.10.x",
-    "jshint": "~2.4.3",
-    "karma-jasmine": "~0.1.5",
-    "karma-junit-reporter": "~0.2.1",
-    "yargs": "~1.2.x",
-    "gulp-util": "~2.2.13",
-    "gulp": "~3.6.x",
-    "gulp-rename": "~0.2.2",
-    "gulp-concat": "~2.1.7",
-    "gulp-uglify": "~0.2.0",
-    "gulp-jshint": "~1.5.0",
-    "gulp-sass": "~0.7.1",
-    "gulp-debug": "~0.1.2",
-    "gulp-notify": "~1.0.0-beta",
-    "xml2js": "~0.4.x",
+    "colors": "^1.1.2",
+    "gulp": "^3.9.0",
+    "gulp-bump": "^0.3.1",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-debug": "^2.0.1",
+    "gulp-jshint": "^1.11.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.3",
+    "gulp-sass": "^2.0.2",
+    "gulp-size": "^1.2.2",
+    "gulp-task-listing": "^1.0.1",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.6",
+    "js-yaml": "^3.3.1",
+    "jshint": "^2.8.0",
+    "jshint-stylish": "^2.0.1",
+    "karma": "0.12.x",
+    "karma-jasmine": "^0.3.5",
+    "karma-junit-reporter": "^0.2.2",
+    "run-sequence": "^1.1.1",
     "sys": "0.0.1",
-    "colors": "0.6.2",
-    "gulp-size": "^0.3.1",
-    "gulp-bump": "^0.1.8",
-    "gulp-clean": "^0.2.4",
-    "jshint-stylish": "^0.2.0",
-    "gulp-task-listing": "^0.3.0",
-    "run-sequence": "^0.3.6",
-    "gulp-replace": "^0.3.0"
+    "xml2js": "^0.4.9",
+    "yargs": "^3.13.0"
   },
   "engines": {
-    "node": ">=0.10",
-    "npm": "1.1.32"
+    "node": "~0.12",
+    "npm": "2.11.2"
   },
   "gitHead": "e7866696b45b08d4567850b08f5fc44314862bd3",
-  "readme": "javascript-sdk-boilerplate [![Build Status](https://travis-ci.org/monbro/javascript-sdk-boilerplate.svg?branch=master)](https://travis-ci.org/monbro/javascript-sdk-boilerplate)\n===========================\n\nA boilerplate code template for creating a generic javascript sdk. Check out the [demo](https://rawgit.com/monbro/javascript-sdk-boilerplate/master/example/example1.html).\n\n### 1. Installation\n\nYou will need to have [nodejs](http://nodejs.org/download) isntalled.\n\nClone the repository or download the [zip](https://github.com/monbro/javascript-sdk-boilerplate/archive/master.zip).\nOr you can use the existing [yeoman generator](https://www.npmjs.org/package/generator-javascript-sdk-boilerplate):\n\n* ```npm install -g generator-javascript-sdk-boilerplate```\n* ```yo javascript-sdk-boilerplate```\n\n### 2. Getting started\n\n* open the command line and switch into the project folder\n* ```npm install```\n* ```sudo npm install -g gulp```\n* ```gulp``` to see the list of available tasks\n\n### 3. Essential Gulp Tasks\n\n* ```gulp build``` dumps a plain and a minified file from all files in the folder ```src``` into the folder ```dist```.\n* ```gulp clean``` removes all files in the folder ```dist```.\n* ```gulp test``` runs the tests and linting for all files in the folder ```src```.\n* ```gulp bump-patch``` increases the version by ```0.0.1``` for the last git commit and pushes the new tag to the remote repository.\n* ```gulp bump-minor``` increases the version by ```0.1.0``` for the last git commit and pushes the new tag to the remote repository.\n* ```gulp bump-major``` increases the version by ```1.0.0``` for the last git commit and pushes the new tag to the remote repository.\n\n## Web References\n\n### Tutorials to build a SDK\n\n* http://msdn.microsoft.com/en-us/library/jj820239.aspx\n\n### How others do it:\n\n* https://github.com/apigee/apigee-javascript-sdk/blob/master/apigee.js\n* https://github.com/stackmob/stackmob-js-sdk/blob/master/stackmob.js\n* https://github.com/gilt/gilt-js-sdk/blob/master/gilt-js-api.js\n* https://github.com/BuddyPlatform/Buddy-JS-SDK/blob/master/buddy.js\n* https://github.com/EdmundsAPI/sdk-javascript/blob/master/edmunds.api.sdk.js\n* https://github.com/justintv/twitch-js-sdk/blob/master/twitch.js\n* https://github.com/aws/aws-sdk-js/blob/master/dist/aws-sdk.js\n* https://github.com/Instagram/instagram-javascript-sdk/blob/master/ig.js\n* https://github.com/splunk/splunk-sdk-javascript/blob/master/client/splunk.js\n\n### Final usage examples\n\n* https://keen.io/docs/clients/javascript/usage-guide/ with https://dc8na2hxrj29i.cloudfront.net/code/keen-2.1.0-min.js\n* https://developers.facebook.com/docs/javascript/quickstart/v2.0 with https://connect.facebook.net/en_US/sdk.js\n* https://parse.com/docs/js_guide with www.parsecdn.com/js/parse-1.2.18.min.js\n\n### Helpful sites\n\n* http://blog.ponyfoo.com/2014/01/27/my-first-gulp-adventure\n* http://regex101.com/\n",
   "readmeFilename": "README.md",
-  "_id": "javascript-sdk-boilerplate@0.1.0",
-  "_shasum": "da6dbf130b663ddbb6188dc98e6f5b67c4a93811",
-  "_from": "git://github.com/monbro/javascript-sdk-boilerplate.git#v0.1.0",
-  "_resolved": "git://github.com/monbro/javascript-sdk-boilerplate.git#e7866696b45b08d4567850b08f5fc44314862bd3"
+  "_id": "javascript-sdk-geospock@0.0.1",
+  "_shasum": "xxx",
+  "_from": "git@github.com:Geovation/GeoSpockWeb.git#v0.1.0",
+  "_resolved": "git@github.com:Geovation/GeoSpockWeb.git#xxx"
 }
