@@ -1,13 +1,13 @@
+GeoSpock Web [ ![Codeship Status for Geovation/GeoSpockWeb](https://codeship.com/projects/3ceb1330-fe71-0132-422d-2ad98d6b18d6/status?branch=master)](https://codeship.com/projects/88099)
+============
+
 TODO !!!
 ====
-
-
 
 Original README
 ===============
 
-javascript-sdk-boilerplate [ ![Codeship Status for Geovation/GeoSpockWeb](https://codeship.com/projects/3ceb1330-fe71-0132-422d-2ad98d6b18d6/status?branch=master)](https://codeship.com/projects/88099)
-====================
+
 
 A boilerplate code template for creating a generic javascript sdk. Check out the [demo](https://rawgit.com/monbro/javascript-sdk-boilerplate/master/example/example1.html).
 
